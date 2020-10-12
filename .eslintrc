@@ -1,0 +1,22 @@
+{
+	"root": true,
+
+	"extends": "@ljharb",
+
+	"rules": {
+		"id-length": 0,
+		"new-cap": [2, {
+			"capIsNewExceptions": [
+			],
+		}],
+	},
+
+	"overrides": [
+		{
+			"files": "**/*.mjs",
+			"rules": {
+				"no-restricted-exports": 0,
+			},
+		},
+	],
+}

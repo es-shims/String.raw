@@ -1,0 +1,99 @@
+{
+	"name": "string.raw",
+	"version": "0.0.0",
+	"description": "An ES-spec-compliant String.raw shim/polyfill/replacement that works as far down as ES3",
+	"main": "index.js",
+	"exports": {
+		".": [
+			{
+				"import": "./index.mjs",
+				"require": "./index.js",
+				"default": "./index.js"
+			},
+			"./index.js"
+		],
+		"./polyfill": [
+			{
+				"import": "./polyfill.mjs",
+				"require": "./polyfill.js",
+				"default": "./polyfill.js"
+			},
+			"./polyfill.js"
+		],
+		"./implementation": [
+			{
+				"import": "./implementation.mjs",
+				"require": "./implementation.js",
+				"default": "./implementation.js"
+			},
+			"./implementation.js"
+		],
+		"./shim": [
+			{
+				"import": "./shim.mjs",
+				"require": "./shim.js",
+				"default": "./shim.js"
+			},
+			"./shim.js"
+		],
+		"./auto": "./auto.js",
+		"./package.json": "./package.json"
+	},
+	"scripts": {
+		"prepublish": "safe-publish-latest",
+		"pretest": "npm run lint",
+		"lint": "eslint --ext=js,mjs .",
+		"tests-only": "tape 'test/**/*.js'",
+		"tests-esm": "node test/index.mjs",
+		"test": "npm run tests-only && npm run tests-esm",
+		"posttest": "aud --production",
+		"version": "auto-changelog && git add CHANGELOG.md",
+		"postversion": "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\""
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/es-shims/String.raw.git"
+	},
+	"keywords": [
+		"String.raw",
+		"string",
+		"raw",
+		"template",
+		"tag",
+		"shim",
+		"polyfill",
+		"es-shim",
+		"API"
+	],
+	"author": "Nicolò Ribaudo <nicolo.ribaudo@gmail.com>",
+	"funding": {
+		"url": "https://github.com/sponsors/nicolo-ribaudo"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/es-shims/String.raw/issues"
+	},
+	"homepage": "https://github.com/es-shims/String.raw#readme",
+	"devDependencies": {
+		"@ljharb/eslint-config": "^17.2.0",
+		"aud": "^1.1.2",
+		"auto-changelog": "^2.2.1",
+		"eslint": "^7.9.0",
+		"functions-have-names": "^1.2.1",
+		"has-strict-mode": "^1.0.0",
+		"safe-publish-latest": "^1.1.4",
+		"tape": "^5.0.1"
+	},
+	"dependencies": {
+		"define-properties": "^1.1.3",
+		"es-abstract": "^1.18.0-next.0"
+	},
+	"auto-changelog": {
+		"output": "CHANGELOG.md",
+		"template": "keepachangelog",
+		"unreleased": false,
+		"commitLimit": false,
+		"backfillLimit": false,
+		"hideCredit": true
+	}
+}
