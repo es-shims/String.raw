@@ -7,8 +7,14 @@
 		"id-length": 0,
 		"new-cap": [2, {
 			"capIsNewExceptions": [
+				"ToObject",
+				"ToString",
+				"LengthOfArrayLike"
 			],
 		}],
+		"no-magic-numbers": [2, {
+			"ignore": [0, 1]
+		}]
 	},
 
 	"overrides": [
