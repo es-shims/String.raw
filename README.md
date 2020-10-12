@@ -23,7 +23,10 @@ npm install --save string.raw
 ## Usage/Examples
 
 ```js
-// TODO
+// Create Windows path without escaping the backslashes:
+const filePath = String.raw`C:\Development\profile\new\aboutme.html`;
+
+console.log(`${filePath}`); // "C:\Development\profile\new\aboutme.html"
 ```
 
 ## Tests
