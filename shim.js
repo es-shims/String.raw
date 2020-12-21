@@ -7,8 +7,8 @@ module.exports = function shimStringRaw() {
 	var polyfill = getPolyfill();
 	define(
 		String,
-		{ item: polyfill },
-		{ item: function () { return String.raw !== polyfill; } }
+		{ raw: polyfill },
+		{ raw: function () { return String.raw !== polyfill; } }
 	);
 	return polyfill;
 };
