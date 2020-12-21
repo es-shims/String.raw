@@ -1,4 +1,4 @@
-import callBind from 'es-abstract/helpers/callBind.js';
+import callBind from 'call-bind';
 
 import getPolyfill from 'string.raw/polyfill';
 
