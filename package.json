@@ -75,12 +75,12 @@
 	},
 	"homepage": "https://github.com/es-shims/String.raw#readme",
 	"devDependencies": {
-		"@ljharb/eslint-config": "^17.2.0",
-		"aud": "^1.1.2",
+		"@ljharb/eslint-config": "^17.3.0",
+		"aud": "^1.1.3",
 		"auto-changelog": "^2.2.1",
-		"eslint": "^7.11.0",
-		"functions-have-names": "^1.2.1",
-		"has-strict-mode": "^1.0.0",
+		"eslint": "^7.16.0",
+		"functions-have-names": "^1.2.2",
+		"has-strict-mode": "^1.0.1",
 		"safe-publish-latest": "^1.1.4",
 		"tape": "^5.0.1"
 	},
