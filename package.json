@@ -1,6 +1,6 @@
 {
 	"name": "string.raw",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "An ES-spec-compliant String.raw shim/polyfill/replacement that works as far down as ES3",
 	"main": "index.js",
 	"exports": {
