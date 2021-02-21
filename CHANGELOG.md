@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.2](https://github.com/es-shims/String.raw/compare/v1.0.1...v1.0.2) - 2021-02-21
+
+### Commits
+
+- [meta] do not publish github action workflow files [`23bc509`](https://github.com/es-shims/String.raw/commit/23bc5092a00b00483e7c93c4c64e449c0297ccd2)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `aud`, `tape` [`a510254`](https://github.com/es-shims/String.raw/commit/a510254e9986238070b640824b7b4e6632f92e69)
+- [actions] update workflows [`7bfc8c8`](https://github.com/es-shims/String.raw/commit/7bfc8c80aab4adb68199279ae56959d8444c87d1)
+- [Deps] update `call-bind`, `es-abstract` [`f20212c`](https://github.com/es-shims/String.raw/commit/f20212ca40bf29cff3ea39d5bfd03246c83c2287)
+
 ## [v1.0.1](https://github.com/es-shims/String.raw/compare/v1.0.0...v1.0.1) - 2020-12-21
 
 ### Commits
