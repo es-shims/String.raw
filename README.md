@@ -30,7 +30,7 @@ console.log(`${filePath}`); // "C:\Development\profile\new\aboutme.html"
 Simply clone the repo, `npm install`, and run `npm test`
 
 [package-url]: https://npmjs.org/package/es-shims/String.raw
-[npm-version-svg]: http://versionbadg.es/es-shims/String.raw.svg
+[npm-version-svg]: https://versionbadg.es/es-shims/String.raw.svg
 [deps-svg]: https://david-dm.org/es-shims/String.raw.svg
 [deps-url]: https://david-dm.org/es-shims/String.raw
 [dev-deps-svg]: https://david-dm.org/es-shims/String.raw/dev-status.svg
