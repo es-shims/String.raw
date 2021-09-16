@@ -5,6 +5,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.3](https://github.com/es-shims/String.raw/compare/v1.0.2...v1.0.3) - 2021-09-16
+
+### Commits
+
+- [actions] use `node/install` instead of `node/run`; use `codecov` action [`088d095`](https://github.com/es-shims/String.raw/commit/088d095b74d0884e63696ba528479d8f5957b1f2)
+- [Refactor] remove ESM entry points [`1313d2b`](https://github.com/es-shims/String.raw/commit/1313d2b169223e402a8768f80e26e7955fcc1545)
+- [Tests] use `nyc` for coverage [`966a936`](https://github.com/es-shims/String.raw/commit/966a9366f90276b658ddda766b918bb322181fa4)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `aud`, `auto-changelog`, `tape` [`2621fd1`](https://github.com/es-shims/String.raw/commit/2621fd12316a9e15640aafd4fbacd89f91483dc2)
+- [readme] add github actions/codecov badges [`29ddcc3`](https://github.com/es-shims/String.raw/commit/29ddcc34924ca5d68c598426e735a3f0b8c19831)
+- [Dev Deps] update `eslint`, `tape` [`082fc40`](https://github.com/es-shims/String.raw/commit/082fc400bf318af0b08ea31d610444aa111f21a3)
+- [meta] use `prepublishOnly` script for npm 7+ [`599a84d`](https://github.com/es-shims/String.raw/commit/599a84d03aeb690458d038c42da20d205bf88c78)
+- [Deps] update `es-abstract` [`c3c755b`](https://github.com/es-shims/String.raw/commit/c3c755b472e6663340dc066b728655e57c09b9ae)
+- [Tests] add `@es-shims/api` [`4b00e0b`](https://github.com/es-shims/String.raw/commit/4b00e0b5b5e0dd7ba42e2b5f5ce5123c72252509)
+- [readme] fix URL [`f15982f`](https://github.com/es-shims/String.raw/commit/f15982f533f1be16f83f29a31168329580f0efb9)
+- [Deps] update `es-abstract` [`f78d406`](https://github.com/es-shims/String.raw/commit/f78d406f04b551205735e01fc5671ab372d8df65)
+
 ## [v1.0.2](https://github.com/es-shims/String.raw/compare/v1.0.1...v1.0.2) - 2021-02-21
 
 ### Commits
