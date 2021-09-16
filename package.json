@@ -45,6 +45,7 @@
 		"pretest": "npm run lint",
 		"lint": "eslint --ext=js,mjs .",
 		"tests-only": "tape 'test/**/*.js'",
+		"postlint": "es-shim-api --bound",
 		"tests-esm": "node test/index.mjs",
 		"test": "npm run tests-only && npm run tests-esm",
 		"posttest": "aud --production",
@@ -76,6 +77,7 @@
 	},
 	"homepage": "https://github.com/es-shims/String.raw#readme",
 	"devDependencies": {
+		"@es-shims/api": "^2.2.1",
 		"@ljharb/eslint-config": "^17.5.1",
 		"aud": "^1.1.4",
 		"auto-changelog": "^2.2.1",
