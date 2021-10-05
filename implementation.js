@@ -1,8 +1,8 @@
 'use strict';
 
-var ToObject = require('es-abstract/2020/ToObject');
-var ToString = require('es-abstract/2020/ToString');
-var LengthOfArrayLike = require('es-abstract/2020/LengthOfArrayLike');
+var ToObject = require('es-abstract/2021/ToObject');
+var ToString = require('es-abstract/2021/ToString');
+var LengthOfArrayLike = require('es-abstract/2021/LengthOfArrayLike');
 var callBound = require('call-bind/callBound');
 
 var $push = callBound('Array.prototype.push');
