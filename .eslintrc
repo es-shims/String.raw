@@ -16,13 +16,4 @@
 			"ignore": [0, 1]
 		}]
 	},
-
-	"overrides": [
-		{
-			"files": "**/*.mjs",
-			"rules": {
-				"no-restricted-exports": 0,
-			},
-		},
-	],
 }
