@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.5](https://github.com/es-shims/String.raw/compare/v1.0.4...v1.0.5) - 2022-04-10
+
+### Commits
+
+- [actions] reuse common workflows [`4c0e6c8`](https://github.com/es-shims/String.raw/commit/4c0e6c846e926064b34909cb1ec61dea9b677b64)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `safe-publish-latest`, `tape` [`c54c5c4`](https://github.com/es-shims/String.raw/commit/c54c5c495a413c5221cd891191b58795132aba37)
+- [actions] update codecov uploader [`debd864`](https://github.com/es-shims/String.raw/commit/debd864b8d015d47f7fc205096074b5f678e6128)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `aud`, `auto-changelog`, `tape` [`3080ca0`](https://github.com/es-shims/String.raw/commit/3080ca0f31c57771f31d557df3ce231e2133dc9e)
+- [Fix] avoid identifier `native`; it breaks node 0.4 [`9823734`](https://github.com/es-shims/String.raw/commit/982373452bbd70c97c4116c5c209398a44309a6b)
+- [Deps] update `es-abstract` [`739509b`](https://github.com/es-shims/String.raw/commit/739509bda5890c605777d571c1ad3cef9e1d22d9)
+
 ## [v1.0.4](https://github.com/es-shims/String.raw/compare/v1.0.3...v1.0.4) - 2021-10-04
 
 ### Commits
