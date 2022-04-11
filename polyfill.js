@@ -3,9 +3,9 @@
 var implementation = require('./implementation');
 
 module.exports = function getPolyfill() {
-	var native = String.raw;
+	var orig = String.raw;
 
-	if (!native) {
+	if (!orig) {
 		return implementation;
 	}
 
@@ -14,10 +14,10 @@ module.exports = function getPolyfill() {
 			0: 'x', 1: 'y', length: 2
 		}
 	};
-	if (native(templateObj) !== 'xy') {
+	if (orig(templateObj) !== 'xy') {
 		// IE 11 TP has a broken String.raw implementation
 		return implementation;
 	}
 
-	return native;
+	return orig;
 };
