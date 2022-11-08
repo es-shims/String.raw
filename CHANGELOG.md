@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.6](https://github.com/es-shims/String.raw/compare/v1.0.5...v1.0.6) - 2022-11-07
+
+### Commits
+
+- [meta] use `npmignore` to autogenerate an npmignore file [`d751aa4`](https://github.com/es-shims/String.raw/commit/d751aa45b555cd476592c515fa9516a1ddaa4a57)
+- [actions] update rebase action to use reusable workflow [`cf161bd`](https://github.com/es-shims/String.raw/commit/cf161bd9328a2a9287af1f5d1d69ef7bcc7cc0c9)
+- [Deps] update `define-properties`, `es-abstract` [`72020a4`](https://github.com/es-shims/String.raw/commit/72020a4361b2729ee35a17ed927f0a97f9314a5d)
+- [Dev Deps] update `aud`, `functions-have-names`, `tape` [`c9e22aa`](https://github.com/es-shims/String.raw/commit/c9e22aaa1f877381525643d2e095f080738e5e66)
+
 ## [v1.0.5](https://github.com/es-shims/String.raw/compare/v1.0.4...v1.0.5) - 2022-04-10
 
 ### Commits
